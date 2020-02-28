@@ -4,7 +4,9 @@
   "description": "Utilitarios WF requisição",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tst": "node index.js tst config.csv",
+    "prd": "node index.js prd config.csv"
   },
   "author": "Juan Sebastian Goldberg",
   "license": "ISC",
