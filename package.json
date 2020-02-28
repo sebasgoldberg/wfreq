@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tst": "node index.js tst config.csv",
-    "prd": "node index.js prd config.csv"
+    "tst": "node index.js tst data/config.csv",
+    "prd": "node index.js prd data/config.csv",
+    "prd-email": "mkdir tmp && node emailToUserID.js data/users.csv > tmp/users.json && node index.js prd data/config.csv tmp/users.json && rm -rf tmp"
   },
   "author": "Juan Sebastian Goldberg",
   "license": "ISC",

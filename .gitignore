@@ -49,3 +49,6 @@ env.json
 env.js
 config.csv
 users.csv
+users.json
+data
+tmp
