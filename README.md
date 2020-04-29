@@ -2,7 +2,8 @@
 
 ## Requisitos
 
-Instalar node: https://nodejs.org/
+- Node: https://nodejs.org/
+- Git: https://git-scm.com/
 
 ## Instalação
 
